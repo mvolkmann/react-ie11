@@ -2,27 +2,37 @@
 .App {
   color: white;
   display: grid;
+  /*
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 100px 200px 100px;
   grid-template-areas: 'a a' 'b c' 'd d';
+  */
+  grid-template-columns: 300px 1fr 1fr 200px;
+  grid-template-rows: 200px 200px;
+  grid-template-areas: 'travel marketing marketing image' 'travel content benefits image';
 }
 
-.a {
+.travel {
   background-color: red;
-  grid-area: a;
+  grid-area: travel;
 }
 
-.b {
+.marketing {
   background-color: orange;
-  grid-area: b;
+  grid-area: marketing;
 }
 
-.c {
+.image {
   background-color: green;
-  grid-area: c;
+  grid-area: image;
 }
 
-.d {
+.content {
   background-color: blue;
-  grid-area: d;
+  grid-area: content;
+}
+
+.benefits {
+  background-color: purple;
+  grid-area: benefits;
 }

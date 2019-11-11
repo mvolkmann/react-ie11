@@ -4,10 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="a">A</div>
-      <div className="b">B</div>
-      <div className="c">C</div>
-      <div className="d">D</div>
+      <div className="travel">Travel</div>
+      <div className="marketing">Marketing</div>
+      <div className="image">Image</div>
+      <div className="content">Content</div>
+      <div className="benefits">Benefits</div>
     </div>
   );
 }
